@@ -66,6 +66,10 @@ nav.button{
     padding:1%;
     text-decoration: wavy;
 }
+.home:hover{
+
+        padding-right: 25px;
+}
 .about{
     color:antiquewhite;
     background-color: #2d6a4f;
@@ -149,15 +153,15 @@ nav.button{
 
 
 section.middle{
-    margin-top: 4%;
-    margin-bottom: 2%;
+    margin-top: 5% 2%;
+    /* margin-bottom: 2%; */
 
     display: flex;
     text-align: center;
     justify-content: space-around;
     font-size: 3rem;
     /* background-color:#b7e4c7; */
-    line-height: 2;;
+    line-height: 2;
 
    
 
@@ -179,7 +183,7 @@ section.mid-bottom{
     /* background-color:#b7e4c7; */
     line-height: 2;
     
-    justify-content: space-between;
+   
 
 }
 

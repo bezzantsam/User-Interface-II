@@ -229,9 +229,15 @@ footer a:hover{
 
 @media screen and (max-width:800px) {
     /* style changes when the screen gets smaller */
+    body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
       body{
         display: flex;
         flex-direction: column;

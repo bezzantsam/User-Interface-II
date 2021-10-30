@@ -65,6 +65,8 @@ nav.button{
     border-radius: 12px;
     padding:1%;
     text-decoration: wavy;
+   
+    
 }
 .home:hover{
 
@@ -104,6 +106,7 @@ nav.button{
     justify-content: space-around;
     margin-top: 4%;
     padding: 2% 0%;
+    
    
 
 }
@@ -125,6 +128,10 @@ nav.button{
 
 
 }
+img.left{
+    width: 100%;
+    
+}
 
 .right{
     display: flex;
@@ -132,7 +139,7 @@ nav.button{
     justify-content: space-around;
     align-items: flex-start;
     text-align: left;
-    width: 40%
+    width: 45%
 
 }
 .top img{
@@ -168,10 +175,10 @@ section.middle{
    
 }
 .middle div{
-    width: 24%
+    width: 48%
 }
 .mid-bottom div{
-    width: 24%
+    width: 48%
 }
 section.mid-bottom{
    
@@ -232,16 +239,272 @@ footer a:hover{
     body{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-right: 21%;
+     text-align: center;
+    }
+    /* header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    /* .res{
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+     .headerflex{
+         display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        text-align: center;
+        margin-right: 5%;
+        
+       
+     }
+    
+   
+     nav.button{
+         display: flex;
+         flex-direction: column;
+         width: 50%;
+         justify-content: center;
+         align-items: stretch;
+         text-align: center;
+     }
+     
+
+    
+    .top{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+    div.row1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    div.row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    div.row3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    div.row4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    
+    section.middle{
+    flex-direction: column;
+    align-items: center;
+    }
+    section.mid-bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    footer{
+        width: 90%;
+        margin-right: 10%;
+    }
+    footer a{
+        width: 20%;
     }
     
 }
 
 @media screen and (max-width:500px) {
-      body{
+      /* body{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-right: 22%;
+      
       } 
+       header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    .res{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+      div.headerflex{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+      
+        
+    } 
+    div.row1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+    }
+    div.row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    div.row3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    div.row4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+      
+      section.middle{
+          margin-top: 10%;
+      }
+      .top{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        width: 90%;
+        margin-right: 10%;
+    }
+    footer a{
+        width: 20%;
+    }
+    
+    
+}  */
+body{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-right: 21%;
+     text-align: center;
+    }
+    /* header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    /* .res{
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+     .headerflex{
+         display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        text-align: center;
+        margin-right: 5%;
+        
+       
+     }
+    
+   
+     nav.button{
+         display: flex;
+         flex-direction: column;
+         width: 50%;
+         justify-content: center;
+         align-items: stretch;
+         text-align: center;
+     }
+     
+
+    
+    .top{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+    div.row1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    div.row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    div.row3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    div.row4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.9rem;
+        text-align: center
+
+    }
+    
+    section.middle{
+    flex-direction: column;
+    align-items: center;
+    }
+    section.mid-bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    footer{
+        width: 80%;
+        margin-right: 10%;
+    }
+    footer a{
+        width: 40%;
+    }
+    
+}

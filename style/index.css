@@ -1,1 +1,241 @@
-/* Add CSS styling here */
+/* Ahtml, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
+    background-color: #d8f3dc;
+    
+   
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+    }
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* height:80px; */
+    background-color: #d8f3dc;
+    margin: 10%, auto;
+ 
+
+}
+.head{
+    margin-left: 5%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+nav.button{
+ width: 100%;
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin: 0 auto;
+
+}
+.home{
+    color:antiquewhite;
+    background-color: #2d6a4f;
+    border-radius: 12px;
+    padding:1%;
+    text-decoration: wavy;
+}
+.home:hover{
+
+        padding-right: 25px;
+}
+.about{
+    color:antiquewhite;
+    background-color: #2d6a4f;
+    border-radius: 12px;
+    padding:1%;
+    text-decoration: wavy;
+}
+.projects{
+    color:antiquewhite;
+    background-color: #2d6a4f;
+    border-radius: 12px;
+    padding:1%;
+    text-decoration: wavy;
+}
+.contact{
+    color:antiquewhite;
+    background-color: #2d6a4f;
+    border-radius: 12px;
+    padding:1%;
+    text-decoration: wavy;
+}
+.title{
+    margin-left: 2%;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4%;
+    padding: 2% 0%;
+   
+
+}
+.top h2{
+    font-size: 4rem;
+    text-decoration: wavy;
+}
+.bio{
+    font-size: 3rem;
+
+}
+.right .projects{
+    padding:2.5%;
+    border-radius: 20px ;
+    background-color: #1b4332;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    width: 40%
+
+}
+.top img{
+    border-radius:5px;
+    width: 27%;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+    
+}
+.right.projects{
+    margin: 2% 0; 
+}
+.top img:hover{
+    filter:grayscale(100%)
+}
+
+
+
+section.middle{
+    margin-top: 5% 2%;
+    /* margin-bottom: 2%; */
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 3rem;
+    /* background-color:#b7e4c7; */
+    line-height: 2;
+
+   
+
+   
+}
+.middle div{
+    width: 24%
+}
+.mid-bottom div{
+    width: 24%
+}
+section.mid-bottom{
+   
+    margin-top: 5% 2%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 3rem;
+    /* background-color:#b7e4c7; */
+    line-height: 2;
+    
+   
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   margin: 3% auto;
+    text-align: center;
+    background-color: #40916c;
+}
+footer h3{
+    font-size: 4.8rem;
+    color:#081c15;
+    background-color:#40916c ;
+}
+footer a{
+    width: 7%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2.1rem;
+}
+footer a:hover{
+   
+    color:#2d6a4f;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    margin-top: 2%;
+    font-size: 2.1rems;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    /* style changes when the screen gets smaller */
+}
+
+@media screen and (max-width:480px) {
+      body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+      } 
+    }
